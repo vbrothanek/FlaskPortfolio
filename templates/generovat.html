@@ -1,5 +1,5 @@
 {% extends "static_template.html" %}
-{% block secttion %}Generovat heslo{% endblock %}
+{% block section %}Generovat heslo{% endblock %}
 
 {% block hlavni_obsah %}
 <h2>Gnerovat heslo</h2>
@@ -8,13 +8,13 @@
         <label for="lenght">Délka hesla </label>
         <input type="number" name="lenght" min="6" max="64" value="8"/>
         <label for="capital_letters">Velká písmena </label>
-        <input type="checkbox" name="capital_letters" value="True" checked="checked"/>
+        <input type="checkbox" name="capital_letters" value="True" checked>
         <label for="letters">Malá písmena </label>
-        <input type="checkbox" name="letters" value="True" checked="checked"/>
+        <input type="checkbox" name="letters" value="True" checked>
         <label for="numbers">Číslicie </label>
-        <input type="checkbox" name="numbers" value="True" checked="checked"/>
+        <input type="checkbox" name="numbers" value="True" checked>
         <label for="symbols"> Speciální znaky </label>
-        <input type="checkbox" name="symbols" value="True" />
+        <input type="checkbox" name="symbols" value="True">
     </fieldset>
     <button type="submit">Generovat heslo</button>
 </form>
