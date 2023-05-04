@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generátor hesel | {% block section %}{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Online generátor hesel</h1>
+        <p>Heslo dle vlastní potřeby</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Domů</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="/generovat">Generovat heslo</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="/kontakt">Kontakt</a>
+            </li>  
+        </ul>
+    </nav>
+
+    <main>
+        {% block hlavni_obsah %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>Made by Vojtěch Brothánek, 2023 </p>
+    </footer>
+</body>
+</html>

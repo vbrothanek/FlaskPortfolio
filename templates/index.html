@@ -1,0 +1,10 @@
+{% extends "static_template.html" %}
+
+{% block section %}Úvodní stránka{% endblock %}
+
+{% block hlavni_obsah %}
+<p>Tato stránka se teprve připravuje, využijte zatím generátor hesel tímto proklikem.</p>
+<form action="/generovat">
+    <input type="submit" value="Chci generovat heslo">
+</form>
+{% endblock %}
